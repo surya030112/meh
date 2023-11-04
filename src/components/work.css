@@ -1,0 +1,298 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Retro Gaming:wght@400&display=swap');
+
+.card{
+    border: 1px solid black;
+    box-shadow: 3px 3px 3px 3px black;
+    margin: 20px;
+}
+.brand{
+    border: 1px solid black;
+    box-shadow: 3px 3px 3px 3px black;
+    margin: 20px;
+}
+
+.flash{
+    border: 1px solid white;
+    box-shadow: 2px 2px 2px 2px white;
+    margin: 20px;
+}
+.cloth{
+    border: 1px solid white;
+    box-shadow: 2px 2px 2px 2px white;
+    margin: 20px;
+}
+
+.work1{
+    display: flex;
+    flex-direction: row;
+    margin-top: 100px;
+    width: 100vw;
+}
+.work2{
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    background-color: black;
+    color: white;
+}
+.work4{
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    background-color: black;
+    color: white;
+}
+.work3{
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+}
+.win2{
+    display: flex;
+    flex-direction: row;
+    margin: 30px;
+    margin-bottom: 50px;
+    gap:60px;
+}
+.win4{
+    display: flex;
+    flex-direction: row;
+    margin: 30px;
+    margin-bottom: 50px;
+    gap:120px;
+}
+.c1,.c2{
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-bottom: 50px;
+}
+.brd1,.brd2{
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-bottom: 50px;
+}
+.crd1,.crd2{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin: 20px;
+}
+.cl1,.cl2{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin: 20px;
+}
+
+.btn1{
+    padding: 5px;
+    font-family: 'Press Start 2P';
+    border: 1px solid black;
+    box-shadow: 1px 1px 1px 1px black;
+    margin-top: 10px;
+}
+.btn2{
+    padding: 5px;
+    font-family: 'Press Start 2P';
+    border: 1px solid white;
+    box-shadow: 1px 1px 1px 1px white;
+    background-color: black;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    color: white;
+}
+.web{
+    font-family: 'Press Start 2P';
+    font-size: 23px;
+    margin-bottom: 20px;
+}
+.br{
+    font-family: 'Press Start 2P';
+    font-size: 23px;
+    margin-bottom: 20px;
+}
+.int{
+    font-family: 'Press Start 2P';
+    font-size: 24px;
+}
+.print{
+    font-family: 'Press Start 2P';
+    font-size: 24px;
+    margin-bottom: 20px;
+    margin-left: 170px;
+}
+.desig{
+    font-family: 'Press Start 2P';
+    font-size: 24px;
+    margin-top: 10px;
+    margin-left: 113px;
+    margin-bottom: 10px;
+}
+.cards{
+    margin: 80px;
+    margin-top: 0;
+    margin-left: 130px;
+}
+.brandings{
+    margin: 70px;
+    margin-left: 0;
+}
+.craft,.impress,.ex{
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+}
+.grandma{
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+}
+.trauma{
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+}
+.trauma1{
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    margin-left: 40px;
+}
+.grandma1{
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+}
+.dragon{
+    margin-top: 65px;
+    margin-left: 20px;
+}
+.minion{
+    margin-left: 100px;
+}
+.post1{
+    background-image: url(../images/rectangle-827@2x.png);
+    background-size: cover;
+    background-position: center;
+    border: 1px solid black;
+    transition-property: all;
+    transition-duration: 2s;
+    transition-delay: 0ms;
+    transition-timing-function:cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+.post2{
+    background-image: url(../images/rectangle-828@2x.png);
+    background-size: cover;
+    background-position: center;
+    border: 1px solid black;
+    transition-property: all;
+    transition-duration: 2s;
+    transition-delay: 0ms;
+    transition-timing-function:cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+.post1:hover{
+    background-image: url(../images/donate.png);
+    background-size: cover;
+    background-position: center;
+}
+.post2:hover{
+    background-image: url(../images/login.JPG);
+    background-size: cover;
+    background-position: center;
+}
+.poster1{
+    background-image: url(../images/rectangle-823@2x.png);
+    background-size: cover;
+    background-position: center;
+    border: 1px solid white;
+    transition-property: all;
+    transition-duration: 2s;
+    transition-delay: 0ms;
+    transition-timing-function:cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+.poster2{
+    background-image: url(../images/rectangle-824@2x.png);
+    background-size: cover;
+    background-position: center;
+    border: 1px solid white;
+    transition-property: all;
+    transition-duration: 2s;
+    transition-delay: 0ms;
+    transition-timing-function:cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+.poster2:hover{
+    background-image: url(../images/pixel.png);
+    background-size: cover;
+    background-position: center;
+}
+.poster1:hover{
+    background-image: url(../images/08bc6a176968121-2-1-1@2x.png);
+    background-size: cover;
+    background-position: center;
+}
+.brand1{
+    background-image: url(../images/rectangle-829@2x.png);
+    background-size: cover;
+    background-position: center;
+    border: 1px solid black;
+    transition-property: all;
+    transition-duration: 2s;
+    transition-delay: 0ms;
+    transition-timing-function:cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+.brand2{
+    background-image: url(../images/rectangle-8210@2x.png);
+    background-size: cover;
+    background-position: center;
+    border: 1px solid black;
+    transition-property: all;
+    transition-duration: 2s;
+    transition-delay: 0ms;
+    transition-timing-function:cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+.brand2:hover{
+    background-image: url(../images/i-3-1@2x.png);
+    background-size: cover;
+    background-position: center;
+}
+.brand1:hover{
+    background-image: url(../images/02cd41176751591-11@2x.png);
+    background-size: cover;
+    background-position: center;
+}
+.cloth1{
+    background-image: url(../images/rectangle-823@2x.png);
+    background-size: cover;
+    background-position: center;
+    border: 1px solid white;
+    transition-property: all;
+    transition-duration: 2s;
+    transition-delay: 0ms;
+    transition-timing-function:cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+.cloth2{
+    background-image: url(../images/rectangle-824@2x.png);
+    background-size: cover;
+    background-position: center;
+    border: 1px solid white;
+    transition-property: all;
+    transition-duration: 2s;
+    transition-delay: 0ms;
+    transition-timing-function:cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+.cloth2:hover{
+    background-image: url(../images/pixel.png);
+    background-size: cover;
+    background-position: center;
+}
+.cloth1:hover{
+    background-image: url(../images/08bc6a176968121-2-1-1@2x.png);
+    background-size: cover;
+    background-position: center;
+}

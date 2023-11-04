@@ -1,0 +1,261 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Newsreader:opsz,wght@6..72,300&family=Poppins:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Retro Gaming:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Newsreader:opsz,wght@6..72,300&family=Poppins:wght@300&display=swap');
+@font-face {
+    font-family: "Retro Gaming-Regular";
+    src: url("https://fonts.animaapp.com/RetroGaming-Regular") format("truetype");
+  }
+  @font-face {
+    font-family: "Retro Computer-Regular";
+    src: url("https://fonts.animaapp.com/RetroComputer-Regular") format("truetype");
+  }
+.menu{
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+    margin-top: 100px;
+    gap: 200px;
+}
+
+.mom{
+    color: var(--black, #000);
+    font-family: Poppins;
+    font-size: 45.963px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 101%;
+    letter-spacing: -2.878px;
+}
+.just{
+    color: var(--black, #000);
+    font-family: Poppins;
+    font-size: 53.96px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 101%;
+    letter-spacing: -1.109px;
+}
+.h4{
+    color: var(--black, #000);
+    font-family: "Retro Gaming-Regular";
+    font-size: 69.252px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 101%; /* 100.245px */
+}
+.level h3{
+    font-family: "Retro Gaming-Regular";
+}
+.star{
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+    margin-left: 0;
+    font-family: Poppins;
+}
+.s1{
+    display: flex;
+    flex-direction: row;
+}
+.s1 p{
+    margin-top: 5px;
+    margin-left: 5px;
+    font-family: Poppins;
+    font-weight: 600;
+
+}
+.wegot{
+    position: relative;
+    left: 0px;
+}
+.m2{
+    display: flex;
+    flex-direction: row;
+    gap: 60px;
+}
+.profile{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+.m1{
+    margin-left: 180px;
+}
+.p1{
+    margin-top: 40px;
+    margin-left: 30px;
+    margin-right: 60px;
+}
+.p2,.p3{
+    margin-top: 152px;
+    margin-right: 40px;
+}
+.p4{
+    margin-left: 120px;
+    margin-top: 10px;
+}
+.p5{
+    margin-top: 40px;
+    margin-left: 90px;
+}
+.description{
+    display: flex;
+    flex-direction: column
+}
+.part1{
+    display: flex;
+    flex-direction: row;
+    gap: 55px;
+    margin: 50px;
+}
+.menu2{
+    background-color: black;
+    color: white;
+    margin-top: 0;
+}
+
+.head{
+    rotate: 270deg;
+    margin-top: 30px;
+}
+.pzl{
+    display: flex;
+    flex-direction: row;
+}
+.cont{
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin: 50px;
+}
+.part2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.dis{
+    font-size: 20px;
+    font-family: 'Press Start 2P';
+
+}
+.name{
+    font-family: 'Press Start 2P';
+    margin-top: 5px;
+}
+
+.n1{
+    font-family: 'Press Start 2P';
+    rotate: 2deg;
+}
+.creators{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-around;
+    margin: 20px;
+    margin-bottom: 30px;
+}
+.level{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.menu3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+    gap: 20px;
+    z-index: -1;
+}
+.menu4{
+    background-color: black;
+    color: white;
+}
+.end{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.rec{
+    border: 1px solid white;
+    box-shadow: 1px 1px 1px 1px white;
+    padding: 1px;
+}
+.girls{
+    display: flex;
+    flex-direction: row;
+    gap: 150px;
+    margin: 50px;
+    margin-bottom: 10px;
+}
+.card1,.card2,.card3{
+    border: 1px solid lightgray;
+    box-shadow: 7px 7px 7px 7px black;
+    transition-property: all;
+    transition-duration: 2s;
+    transition-delay: 0s;
+}
+.g1,.g2,.g3{
+    margin: 10px;
+}
+.card1{
+    rotate: -5deg;
+}
+.card2{
+    rotate: 3deg;
+}
+.card3{
+    rotate: -10deg;
+    margin-top: 10px;
+}
+.f1{
+    background-image: url(../images/rectangle-1072@2x.png);
+    background-position: center;
+    background-size: cover;
+    transition-property: all;
+    transition-duration: 2s;
+    transition-delay: 0ms;
+    transition-timing-function:cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+.f2{
+    background-image: url(../images/rectangle-1072@2x.png);
+    background-position: center;
+    background-size: cover;
+    transition-property: all;
+    transition-duration: 2s;
+    transition-delay: 0ms;
+    transition-timing-function: ease-in-out;
+}
+.f3{
+    background-image: url(../images/rectangle-1072@2x.png);
+    background-position: center;
+    background-size: cover;
+    transition-property: all;
+    transition-duration: 2s;
+    transition-delay: 1s;
+}
+.card1:hover{
+    rotate: 5deg;
+    color: aqua;
+}
+.card3:hover{
+    rotate: -2deg;
+}
+.card2:hover{
+    rotate: -3deg;
+}
+.f1:hover{
+    background-image: url(../images/color.png);
+    background-position: center;
+    background-size: cover;
+}
+.f2:hover{
+    background-image: url(../images/color1.png);
+    background-position: center;
+    background-size: cover;
+}
